@@ -17,7 +17,7 @@ for i=1:numel(A)
 end
 clsindx=find(A(fai));
 ACT=fai(clsindx);
-ACA=A(fai(clsindx));
+ACA=A(fai(clsindx)); % Finding the corresponding clusters from the time of arrivals
 % After component identification filtering by setting a threshold based on my proposed theory 
 DCI=(ACA>=0.3*max(ACA));
 DCIA=ACA(DCI);
