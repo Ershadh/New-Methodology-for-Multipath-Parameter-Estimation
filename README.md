@@ -5,6 +5,6 @@ The results presented here showcase the code written for the elicitation of the 
 
 ## Multipath Profile Extraction:
 
-![pic](Images/MP1.pdf)
+![pic](/Images/MP1.pdf)
 
-![pic](Images/CIAL.pdf)
+![pic](/Images/CIAL.pdf)
