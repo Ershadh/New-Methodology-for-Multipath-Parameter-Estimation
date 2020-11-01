@@ -5,7 +5,7 @@ The results presented here showcase the code written for the elicitation of the 
 
 ## Multipath Profile Extraction:
 
-![pic](https://github.com/Ershadh/New-Methodology-for-Multipath-Parameter-Estimation/Images/MP1.pdf)
+![pic](CIAL.pdf)
 
 ![pic](https://github.com/Ershadh/New-Methodology-for-Multipath-Parameter-Estimation/main/Images/MP2.pdf)
 
