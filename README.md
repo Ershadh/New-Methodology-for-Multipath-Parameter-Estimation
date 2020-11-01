@@ -14,4 +14,4 @@ The measurement datasets are *actual radio measurements* obtained from the Unive
 ## Cluster Identification Algorithm
 ![CIA](CIA.JPG)
 
-The results presented here form a subset of the proposed overall findings presented in the paper. 
+These results form a subset of the proposed overall findings presented in the paper. 
