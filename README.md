@@ -5,4 +5,4 @@ The results presented here showcase the code written for the elicitation of the 
 
 ## Multipath Profile Extraction:
 
-![pic](Capture1.PJG)
+![pic](Capture1.JPG)
