@@ -7,4 +7,4 @@ The results presented here showcase the code written for the elicitation of the 
 
 ![pic](MP1.pdf)
 
-![pic](MP2.pdf)
+![pic](CIAL.pdf)
