@@ -1,15 +1,17 @@
 clc;
 clear all;
 close all;
-load('ACLN'); load('A_HALL');
-y=ACLN.D(1,1).data; yy=y(90:160)'; 
+load('ACLN'); load('A_HALL'); % Loads Data Values from Measurement Datasets.
+y=ACLN.D(1,1).data; yy=y(90:160)'; % Extraction of the non-zero Clean Signal part
 % MP.A(7,7).data=zeros(1,length(ABRS.B(1,1).data));
+% Correlation of the Signal Template with Received Signal
 for i=1:4
     for j=1:10
 x=AHALL.HA(i,j).data;
 [z,lag]=xcorr(x,yy);
 zi=find(lag==0);
 zz=z(zi:end); zzs=zz.^2;
+% Collecting the correlated signal samples into discrete bins of a definite size in accordance with the signal duration 
 for k=0:383
 tbin(k+1)=sum(zzs(16*k+1:16*(k+1)));
 end
